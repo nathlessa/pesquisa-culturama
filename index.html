@@ -5,6 +5,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <title>Pesquisa Culturama</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,7 +21,7 @@
             <h1>Pesquisa de opinião</h1>
         </header>
         <section>
-            <form action="" method="get">
+            <form action="sucesso.html" method="get">
 
                 <fieldset>
 
@@ -34,7 +39,7 @@
                     <input id="email" type="email" name="userEmail" required>
                     <br>
                     <label for="phoneNumber">Telefone</label>
-                    <input id="phoneNumber" type="tel" name="userPhoneNunber" pattern="[0-9] {11}"
+                    <input id="phoneNumber" type="tel" name="userPhoneNunber" pattern="[0-9]{11}"
                         placeholder="DDD + número sem espaço ou hífen">
                     <br>
                     <label for="image">Upload de foto</label>
@@ -100,7 +105,8 @@
                     </select>
 
                     <label for="city">Cidade:</label>
-                    <input id="city" type="text" name="userCity" autocomplete="address-level2" placeholder="Ex.: Fortaleza">
+                    <input id="city" type="text" name="userCity" autocomplete="address-level2"
+                        placeholder="Ex.: Fortaleza">
                 </fieldset>
 
                 <fieldset>
